@@ -86,11 +86,6 @@ Puedes modificar o agregar más comandos y salidas en el archivo `commands.csv` 
 
 - Si deseas agregar más funcionalidad o cambiar el diseño de la terminal, puedes modificar el archivo `TerminalLinux.tsx` en la carpeta `src/`.
 
-## Capturas de Pantalla
-
-### Interfaz de la Terminal
-
-![TerminalLinux](https://via.placeholder.com/800x400.png)
 
 ## Tecnologías Utilizadas
 
