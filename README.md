@@ -1,46 +1,114 @@
-# Getting Started with Create React App
+# TerminalLinux - React Terminal Emulator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**TerminalLinux** es una aplicación de emulación de terminal simple hecha con React. Permite ejecutar comandos definidos en un archivo CSV, con soporte para saltos de línea y HTML en la salida. También incluye un comando especial `clear` para limpiar la pantalla.
 
-## Available Scripts
+## Características
 
-In the project directory, you can run:
+- Simulación de una terminal de línea de comandos en un entorno web.
+- Carga de comandos desde un archivo CSV (`commands.csv`).
+- Soporte para HTML en la salida (como el uso de etiquetas `<br>` para saltos de línea).
+- Comando `clear` para limpiar el historial de la terminal.
+- Desplazamiento automático para mostrar siempre el último comando.
+- Diseño estilo terminal con botones de control estilo macOS.
 
-### `yarn start`
+## Requisitos
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Node.js
+- Yarn o npm para la gestión de paquetes.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Instalación
 
-### `yarn test`
+1. Clona el repositorio:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    ```bash
+    git clone https://github.com/tu-usuario/TerminalLinux.git
+    cd TerminalLinux
+    ```
 
-### `yarn build`
+2. Instala las dependencias:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    ```bash
+    yarn install
+    ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    o
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    ```bash
+    npm install
+    ```
 
-### `yarn eject`
+3. Asegúrate de que el archivo `commands.csv` esté ubicado en la carpeta `public/`:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+    - Estructura del archivo `commands.csv`:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+      ```csv
+      comando,output
+      skills,"python.py <br> pandas.py <br> numpy.py <br> matplotlib.py"
+      help,"Comandos disponibles: <br> - clear <br> - skills"
+      ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+4. Inicia la aplicación:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+    ```bash
+    yarn start
+    ```
 
-## Learn More
+    o
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    ```bash
+    npm start
+    ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Estructura del Proyecto
+
+- **`src/TerminalLinux.tsx`**: Componente principal que emula la terminal.
+- **`public/commands.csv`**: Archivo que contiene los comandos y sus correspondientes outputs.
+- **`package.json`**: Archivo de configuración de dependencias del proyecto.
+
+## Uso
+
+### Comandos
+
+- **clear**: Limpia la pantalla de la terminal.
+- **skills**: Muestra una lista de habilidades, obtenida desde el archivo CSV.
+- **help**: Muestra una lista de comandos disponibles.
+
+Puedes modificar o agregar más comandos y salidas en el archivo `commands.csv` para personalizar la terminal.
+
+### Personalización
+
+- Para agregar nuevos comandos, edita el archivo `commands.csv` en la carpeta `public/`. Asegúrate de seguir el formato:
+
+    ```csv
+    comando,output
+    nuevo_comando,"Salida correspondiente al nuevo comando."
+    ```
+
+- Si deseas agregar más funcionalidad o cambiar el diseño de la terminal, puedes modificar el archivo `TerminalLinux.tsx` en la carpeta `src/`.
+
+## Capturas de Pantalla
+
+### Interfaz de la Terminal
+
+![TerminalLinux](https://via.placeholder.com/800x400.png)
+
+## Tecnologías Utilizadas
+
+- **React**: Biblioteca de JavaScript para la construcción de interfaces de usuario.
+- **PapaParse**: Biblioteca para la manipulación de archivos CSV en JavaScript.
+- **TypeScript**: Superset de JavaScript que añade tipado estático.
+- **Tailwind CSS**: Framework de CSS para diseño rápido y responsivo.
+
+## Contribuciones
+
+¡Las contribuciones son bienvenidas! Si deseas contribuir, sigue estos pasos:
+
+1. Haz un fork del proyecto.
+2. Crea una rama nueva (`git checkout -b feature/nueva-funcionalidad`).
+3. Haz tus cambios y realiza un commit (`git commit -m 'Agrega nueva funcionalidad'`).
+4. Envía tus cambios a tu fork (`git push origin feature/nueva-funcionalidad`).
+5. Crea un Pull Request en GitHub.
+
+## Licencia
+
+Este proyecto está bajo la licencia MIT. Consulta el archivo [LICENSE](LICENSE) para obtener más detalles.

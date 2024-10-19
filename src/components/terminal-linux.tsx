@@ -11,7 +11,7 @@ export default function TerminalLinux() {
   const [output, setOutput] = useState<string[]>([])
   const [commands, setCommands] = useState<Command[]>([]) // Aquí guardaremos los comandos desde el CSV
   const inputRef = useRef<HTMLInputElement>(null)
-  const terminalRef = useRef<HTMLDivElement>(null) // Ref para controlar el scroll automático
+  const terminalRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
     if (inputRef.current) {

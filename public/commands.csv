@@ -1,3 +1,5 @@
 comando,output
-help,"HELP<br><br>skills: Lista de comandos disponibles<br>clear: Limpia la pantalla"
-skills,"python.py <br> pandas.py <br> javascript.js <br> index.html <br> style.css <br> c#.cs query.sql"
+help,"HELP<br><br>skills: Lista de comandos disponibles<br>clear: Limpia la pantalla<br>version: Muestra la versión del terminal"
+skills,"python.py <br> pandas.py <br> javascript.js <br> index.html <br> style.css <br> c#.cs <br> query.sql"
+version,"Terminal v2.1.6"
+duki,"skeeeeereeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
