@@ -1,12 +1,12 @@
 
 import React from 'react';
 import './App.css';
-import TerminalLinux from './components/terminal-linux';
+import Terminal from './components/terminal';
 
 function App() {
   return (
     <div className="App">
-      <TerminalLinux />
+      <Terminal />
     </div>
   );
 }
