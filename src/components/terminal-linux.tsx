@@ -68,9 +68,9 @@ export default function TerminalLinux() {
         <div className="bg-gray-900 px-4 py-2 flex justify-between items-center">
           <div className="ml-4 text-white text-sm">Terminal</div>
           <div className="flex space-x-3 justify-end">
-            <div className="w-3 h-3 bg-red-500 rounded-full"></div>
-            <div className="w-3 h-3 bg-yellow-500 rounded-full"></div>
             <div className="w-3 h-3 bg-green-500 rounded-full"></div>
+            <div className="w-3 h-3 bg-yellow-500 rounded-full"></div>
+            <div className="w-3 h-3 bg-red-500 rounded-full"></div>
           </div>
         </div>
 
