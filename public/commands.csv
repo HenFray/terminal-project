@@ -1,2 +1,3 @@
 comando,output
-skills,"python.py <br> pandas.py <br> numpy.py <br> matplotlib.py"
+help,"HELP<br><br>skills: Lista de comandos disponibles<br>clear: Limpia la pantalla"
+skills,"python.py <br> pandas.py <br> javascript.js <br> index.html <br> style.css <br> c#.cs query.sql"
