@@ -1,6 +1,6 @@
-# TerminalLinux - React Terminal Emulator
+# Terminal - React Terminal Emulator
 
-**TerminalLinux** es una aplicación de emulación de terminal simple hecha con React. Permite ejecutar comandos definidos en un archivo CSV, con soporte para saltos de línea y HTML en la salida. También incluye un comando especial `clear` para limpiar la pantalla.
+**Terminal** es una aplicación de emulación de terminal simple hecha con React. Permite ejecutar comandos definidos en un archivo CSV, con soporte para saltos de línea y HTML en la salida. También incluye un comando especial `clear` para limpiar la pantalla.
 
 ## Características
 
@@ -18,14 +18,7 @@
 
 ## Instalación
 
-1. Clona el repositorio:
-
-    ```bash
-    git clone https://github.com/tu-usuario/TerminalLinux.git
-    cd TerminalLinux
-    ```
-
-2. Instala las dependencias:
+1. Instala las dependencias:
 
     ```bash
     yarn install
@@ -37,7 +30,7 @@
     npm install
     ```
 
-3. Asegúrate de que el archivo `commands.csv` esté ubicado en la carpeta `public/`:
+2. Asegúrate de que el archivo `commands.csv` esté ubicado en la carpeta `public/`:
 
     - Estructura del archivo `commands.csv`:
 
@@ -47,7 +40,7 @@
       help,"Comandos disponibles: <br> - clear <br> - skills"
       ```
 
-4. Inicia la aplicación:
+3. Inicia la aplicación:
 
     ```bash
     yarn start
@@ -61,7 +54,7 @@
 
 ## Estructura del Proyecto
 
-- **`src/TerminalLinux.tsx`**: Componente principal que emula la terminal.
+- **`src/Terminal.tsx`**: Componente principal que emula la terminal.
 - **`public/commands.csv`**: Archivo que contiene los comandos y sus correspondientes outputs.
 - **`package.json`**: Archivo de configuración de dependencias del proyecto.
 
@@ -84,7 +77,7 @@ Puedes modificar o agregar más comandos y salidas en el archivo `commands.csv` 
     nuevo_comando,"Salida correspondiente al nuevo comando."
     ```
 
-- Si deseas agregar más funcionalidad o cambiar el diseño de la terminal, puedes modificar el archivo `TerminalLinux.tsx` en la carpeta `src/`.
+- Si deseas agregar más funcionalidad o cambiar el diseño de la terminal, puedes modificar el archivo `Terminal.tsx` en la carpeta `src/`.
 
 
 ## Tecnologías Utilizadas
