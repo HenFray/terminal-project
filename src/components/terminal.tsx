@@ -6,7 +6,7 @@ interface Command {
   output: string
 }
 
-export default function TerminalLinux() {
+export default function Terminal() {
   const [input, setInput] = useState('')
   const [output, setOutput] = useState<string[]>([])
   const [commands, setCommands] = useState<Command[]>([]) // Aquí guardaremos los comandos desde el CSV
