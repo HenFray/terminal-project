@@ -1,5 +1,5 @@
 # Terminal - React Terminal Emulator
-
+<img src="public/pixel-detail.png" width="200"><br>
 **Terminal** es una aplicación de emulación de terminal simple hecha con React. Permite ejecutar comandos definidos en un archivo CSV, con soporte para saltos de línea y HTML en la salida. También incluye un comando especial `clear` para limpiar la pantalla.
 
 ## Características
