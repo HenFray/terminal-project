@@ -1,4 +1,4 @@
 comando,output
-help,"HELP<br><br>skills: Lista de comandos disponibles<br>clear o cls: Limpia la pantalla<br>version: Muestra la versión del terminal<br>duki: yasupiste"
+help,"HELP<br><br>skills: Lista de comandos disponibles<br>clear o cls: Limpia la pantalla<br>version: Muestra la versión del terminal"
 skills,"├ python.py <br>├ pandas.py <br>├ javascript.js <br>├ index.html <br>├ style.css <br>├ c#.cs <br>└ query.sql"
 version,"Terminal v2.1.7"
