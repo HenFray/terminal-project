@@ -1,7 +1,10 @@
 # Terminal - React Terminal Emulator
 <img src="public/pixel-detail.png" width="150"><br>
 **Terminal** es una aplicación de emulación de terminal simple hecha con React. Permite ejecutar comandos definidos en un archivo CSV, con soporte para saltos de línea y HTML en la salida. También incluye un comando especial `clear` para limpiar la pantalla.<br><br>
-[![DEMO](https://img.shields.io/badge/DEMO-vercel-black?logo=vercel&logoColor=white)](https://terminal-project-tau.vercel.app/)
+<a href="https://terminal-project-tau.vercel.app/" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/badge/DEMO-vercel-black?logo=vercel&logoColor=white" alt="DEMO">
+</a>
+
 
 
 
