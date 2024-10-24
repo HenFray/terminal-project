@@ -44,7 +44,7 @@ export default function TerminalLinux() {
   const handleInputSubmit = (e: React.FormEvent) => {
     e.preventDefault()
     if (input.trim() !== '') {
-      if (input.trim() === 'clear') {
+      if (input.trim() === 'clear' || input.trim() === 'cls') {
         // Si el comando es "clear", limpiamos el output
         setOutput([])
       } else {
