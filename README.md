@@ -78,7 +78,8 @@ Puedes modificar o agregar más comandos y salidas en el archivo `commands.csv` 
     ```
 
 - Si deseas agregar más funcionalidad o cambiar el diseño de la terminal, puedes modificar el archivo `Terminal.tsx` en la carpeta `src/`.
-
+## Screenshots
+    <img src="https://github.com/henfray/terminal-web/public/screenshot.png" width="500">
 
 ## Tecnologías Utilizadas
 
