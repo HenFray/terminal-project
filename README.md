@@ -80,7 +80,7 @@ Puedes modificar o agregar más comandos y salidas en el archivo `commands.csv` 
 - Si deseas agregar más funcionalidad o cambiar el diseño de la terminal, puedes modificar el archivo `Terminal.tsx` en la carpeta `src/`.
 
 ## Screenshots
-<img src="public/screenshot.png" width="500">
+<img src="public/screenshot.png" width="900">
 
 ## Tecnologías Utilizadas
 
